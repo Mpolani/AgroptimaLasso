@@ -1,0 +1,65 @@
+{
+  "menu": [
+    {
+      "id": "1",
+      "title": "Inicio",
+      "icon": "bi bi-house",
+      "url": "/dashboard/home",
+      "submenu": []
+    },
+    {
+      "id": "2",
+      "title": "Mesas",
+      "icon": "bi bi-grid-1x2",
+      "url": "/dashboard/tables",
+      "submenu": []
+    },
+    {
+      "id": "3",
+      "title": "Menu del día",
+      "icon": "bi bi-list-task",
+      "url": "/dashboard/todayMenu",
+      "submenu": []
+    },
+    {
+      "id": "4",
+      "title": "Lista de productos",
+      "icon": "bi bi-list-task",
+      "url": "/dashboard/listProducts",
+      "submenu": []
+    },
+    {
+      "id": "5",
+      "title": "Bodega",
+      "icon": "bi bi-archive",
+      "url": "/dashboard/store",
+      "submenu": []
+    },
+    {
+      "id": "6",
+      "title": "Ordenes",
+      "icon": "bi bi-clipboard-data",
+      "url": "/dashboard/orders",
+      "submenu": []
+    },
+    {
+      "id": "7",
+      "title": "Configuración",
+      "icon": "bi bi-card-checklist",
+      "submenu": [
+        {
+          "title": "Opción 1",
+          "icon": "bi bi-record-fill",
+          "url": "/dashboard/store",
+          "submenu": []
+        },
+        {
+          "title": "Opción 2",
+          "icon": "bi bi-record-fill",
+          "url": "/dashboard/orders",
+          "submenu": []
+        }
+      ]
+    }
+  ]
+}
