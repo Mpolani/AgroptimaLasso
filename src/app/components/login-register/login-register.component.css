@@ -1,5 +1,5 @@
 .background-radial-gradient {
-    background-image: url('../../assets/images/CAFE.png');
+    background-image: url('./../../../assets/images/CAFE.png');
     background-size: cover;
 }
 h1{

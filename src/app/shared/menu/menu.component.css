@@ -1,0 +1,16 @@
+
+  .nav-link {
+    padding: 0 10px;
+  }
+  .dropdown-menu {
+    min-width: 150px;
+  }
+  .type-letter{
+    font-family: 'Twinkling';
+    font-size: 25px;
+    color: var(--white-color);
+  }
+  a{
+    font-family: 'Nunito-Italic';
+    font-size: 20px;
+  }
