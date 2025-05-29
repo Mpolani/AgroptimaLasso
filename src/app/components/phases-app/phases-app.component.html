@@ -1,0 +1,82 @@
+<app-menu></app-menu>
+
+
+<div class="container-fluid ">
+  <div class="row">
+    <div class="col-lg-12 mt-3">
+      <h1 class="text-center type-letter">Fases de mi Aplicación</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-12">
+      <p class="text-center">Agroptima es una herramienta poderosa para agricultores, que desean mejorar la
+        eficiencia de sus operaciones agrícolas. Puede aprovechar Agroptima para registrar fácilmente las
+        actividades de recolección de café en tiempo real, monitorear el rendimiento de sus cultivos, y
+        gestionar los recursos de su finca con mayor precisión.</p>
+    </div>
+  </div>
+  <div class="row ">
+    <div class="col-sm-3 ">
+      <div class="card card-equal-height">
+        <img height="50%" src="assets/images/Registro.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Registro</h5>
+          <p class="card-text">Se realizará un registro personal de cada recolector de café. Además, se mostrará un
+            listado inicial de las fincas disponibles, incluyendo imágenes, cantidad de árboles de café y el tiempo que
+            se lleva realizando la recolección.</p>
+
+          <div class="modal-footer">
+            <button [routerLink]="'/record'" type="button" class="btn btn-success">Registro</button>
+            <button [routerLink]="'/farms'" type="button" class="btn btn-primary mx-1">Fincas</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3 mb-3">
+      <div class="card card-equal-height">
+        <img src="assets/images/Notificaciones.jpg" height="50%" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Notificaciones</h5>
+          <p class="card-text">Se debe notificar al finquero o a la persona a cargo que uno o más recolectores han
+            realizado el registro para obtener trabajo en dicha finca. Esta notificación incluirá la información
+            personal de los recolectores.</p>
+          <div class="modal-footer">
+            <button [routerLink]="'/profiles'" type="button" class="btn btn-success">Ver Notificaciones</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3 mb-3">
+      <div class="card card-equal-height">
+        <img src="assets/images/Revision.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Revisión</h5>
+          <p class="card-text">El finquero evaluará las habilidades o condiciones de los recolectores y dará de alta su
+            perfil, notificando que ha sido contratado. El recolector debe tener en cuenta la condiciones del fincario
+            para el proceso de recolecciòn.</p>
+          <div class="modal-footer">
+            <button [routerLink]="'/profiles'" type="button" class="btn btn-success">Revisar Perfiles</button>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3 mb-3">
+      <div class="card card-equal-height">
+        <img src="assets/images/Calificacion.png" height="287" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Calificación</h5>
+          <p class="card-text">El finquero otorgará una calificación al recolector basada en un análisis diario. La
+            segunda parte permite que el recolector califique la finca, considerando aspectos como el trato recibido, la
+            alimentación, el estado de las instalaciones.</p>
+          <div class="modal-footer">
+            <button [routerLink]="'/rating'" type="button" class="btn btn-success">Calificar</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

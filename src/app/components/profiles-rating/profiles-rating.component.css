@@ -1,11 +1,12 @@
-h6 {
-    font-family: 'Nunito-Bold';
-    font-size: 30px;
-    text-align: center;
+.rating i {
+  transition: transform 0.2s;
 }
-
-.comments {
-    font-family: 'Nunito-Bold';
-    font-size: 21px;
-    text-align: center;
+.rating i:hover {
+  transform: scale(1.2);
+}
+.card {
+  transition: transform 0.2s ease-in-out;
+}
+.card:hover {
+  transform: translateY(-5px);
 }

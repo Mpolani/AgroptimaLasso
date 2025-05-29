@@ -1,0 +1,67 @@
+<app-menu></app-menu>
+
+<!-- componente transversla o hijo -->
+
+<div class="container mt-4">
+    <div class="card ">
+        <div class="card-header">
+            <strong>Registro Recolectores</strong>
+        </div>
+        <div class="card-body ">
+            <!-- Horizontal -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="mb-3">
+                        <label for="name" class="form-label"><strong> Nombre Completo</strong> </label>
+                        <input type="text" class="form-control" id="name" placeholder="Nombre">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="mb-3">
+                        <label for="numPhone" class="form-label"><strong> Numero Telefonico</strong> </label>
+                        <input type="numbre" class="form-control" id="numPhone" placeholder="Numero">
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="mb-3">
+                        <label for="numDoc" class="form-label"><strong> Numero de Documento</strong> </label>
+                        <input type="number" class="form-control" id="numDoc" placeholder="Documento">
+                    </div>
+
+                </div>
+                <div class="col-lg-4">
+                    <label for="e" class="form-label"><strong>Tipo de Documento</strong></label>
+                    <select class="form-select" aria-label="Default select example">
+
+                        <option selected>Seleccione</option>
+                        <option value="1">CC</option>
+                        <option value="2">TI</option>
+                        <option value="3">CE</option>
+                    </select>
+                </div>
+                <div class="col-lg-4">
+                    <label for="gender" class="form-label"><strong>Genero</strong> </label>
+                    <select class="form-select" aria-label="gender">
+                        <option selected>Seleccione</option>
+                        <option value="1">Masculino</option>
+                        <option value="2">Femenino</option>
+
+                    </select>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success"><strong>Aceptar</strong></button>
+                <button type="button" class="btn btn-secondary"><strong>Cancelar</strong></button>
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+</div>
